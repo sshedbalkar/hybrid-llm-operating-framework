@@ -53,9 +53,9 @@ The LLM must discover these values before setup:
 - `[SOURCE_OF_TRUTH_PATHS]`: canonical docs, code roots, schemas, manifests, build files, deployment config, runbooks
 - `[SHARED_CONTEXT_DIR]`: default `context/`
 - `[CARD_INDEX_FILE]`: default `[SHARED_CONTEXT_DIR]/doc-cards.md` for documentation-heavy repos; otherwise `[SHARED_CONTEXT_DIR]/cards.md`
-- `[ROUTING_MAP_FILE]`: default `[SHARED_CONTEXT_DIR]/routing-map.md`; use a domain-specific name such as `[SHARED_CONTEXT_DIR]/bstd-routing-map.md` when that is already established
+- `[ROUTING_MAP_FILE]`: default `[SHARED_CONTEXT_DIR]/routing-map.md`; use a domain-specific name such as `[SHARED_CONTEXT_DIR]/estd-routing-map.md` when that is already established
 - `[VALIDATOR_SPECS_DIR]`: default `[SHARED_CONTEXT_DIR]/validators/` when validators are route-bound specs
-- `[ENFORCEMENT_TOOL_DIR]`: optional reusable validator/enforcer package path such as `tools/bstd-enforcer/`
+- `[ENFORCEMENT_TOOL_DIR]`: optional reusable validator/enforcer package path such as `tools/estd-enforcer/`
 - `[LOCAL_SCRATCH_LOCATIONS]`: gitignored agent-local files and directories
 - `[WORK_UNIT_KIND]`: doc, service, package, app, library, infra module, schema set, pipeline, subsystem, or workstream
 - `[VALIDATION_COMMANDS]`: parse, lint, typecheck, unit, integration, build, migration, runtime smoke, perf
